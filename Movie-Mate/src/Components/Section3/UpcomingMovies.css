@@ -1,0 +1,32 @@
+#UpcomingMoviesContainer{
+    background-color: rgb(25, 25, 25);
+    width: 95%;
+    display: block;
+    margin: 50px auto;
+    margin-top: 10px;
+    height: 560px;
+    margin-bottom: 70px;
+
+
+    border: none;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    gap: 15px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+
+}
+
+#sectionheading3{
+    font-size:x-large;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 90px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}

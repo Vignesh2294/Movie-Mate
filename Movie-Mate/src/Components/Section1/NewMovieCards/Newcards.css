@@ -1,0 +1,79 @@
+.NewMoviesCards {
+  background-color: rgb(39, 38, 38);
+  width: 16%;
+  height: 270px;
+  border-radius: 15px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.NewMoviesCards:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 10px black;
+}
+
+.wishlist{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    
+    z-index: 3;
+}
+
+.wishlist:hover{
+    box-shadow: 0 0 15px white;
+}
+
+
+.cardposter {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.cardInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding: 10px;
+  box-sizing: border-box;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  z-index: 1;
+}
+
+.NewMoviesCards:hover .cardInfo {
+  opacity: 1;
+}
+
+.details{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#overview{
+  font-size: small;
+}

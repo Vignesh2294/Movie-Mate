@@ -1,0 +1,9 @@
+#logo{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 10px white;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+.FooterButtons{
+    background-color: rgb(40, 39, 39);
+    border: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.FooterButtons:hover{
+    background-color:  rgb(28, 27, 27);
+    color: white;
+    box-shadow: 0 0 5px  rgb(35, 34, 34);
+}
